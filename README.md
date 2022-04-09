@@ -38,6 +38,8 @@ Or you can cache only specific queries as in example below
 
 ```php
 $category = Category::cacheFor(60 * 60)->first();
+// or
+$category = Category::cacheForever()->first();
 
 // Using a DateTime instance like Carbon works perfectly fine!
 $category = Category::cacheFor(now()->addDays(1))->first();
