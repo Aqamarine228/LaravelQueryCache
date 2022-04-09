@@ -1,6 +1,6 @@
 <?php
 
-namespace Aqamarine\QueryCache;
+namespace Aqamarine\LaravelQueryCache;
 
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Database\Query\Builder as BaseBuilder;

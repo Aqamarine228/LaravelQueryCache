@@ -1,6 +1,6 @@
 <?php
 
-namespace Aqamarine\QueryCache;
+namespace Aqamarine\LaravelQueryCache;
 
 use Exception;
 use RuntimeException;
