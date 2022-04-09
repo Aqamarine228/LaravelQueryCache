@@ -167,7 +167,7 @@ trait QueryCacheModule
     {
         return isset($this->cacheDriver)
             ? app('cache')->driver($this->cacheDriver)
-            : app('cache')->driver(env('CACHE_DRIVER'));
+            : app('cache')->driver(config('cache.default'));
     }
 
     public function getCache()
