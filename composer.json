@@ -1,0 +1,23 @@
+{
+    "name": "aqamarine/query-cache",
+    "description": "Based on 'miradnan/laravel-model-caching' package which stores cache for every needed laravel database query and automatically cleans it after Creating or Updating Laravel model.",
+    "type": "library",
+    "require": {
+        "php" : "^7.3|^8.0",
+        "illuminate/database": "^6.0|^7.30|^8.0|^9.0",
+        "illuminate/support": "^6.0|^7.30|^8.0|^9.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aqamarine\\QueryCache\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aqamarine228",
+            "email": "MrFurgJK@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
