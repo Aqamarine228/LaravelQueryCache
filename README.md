@@ -8,7 +8,7 @@ after Creating or Updating Laravel model.
 Using the package manager [composer](https://getcomposer.org).
 
 ```bash
-$ composer require aqamarine228/laravel-query-cache
+$ composer require aqamarine/laravel-query-cache
 ```
 
 ## Usage
