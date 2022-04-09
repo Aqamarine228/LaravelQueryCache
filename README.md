@@ -8,7 +8,7 @@ after Creating or Updating Laravel model.
 Using the package manager [composer](https://getcomposer.org).
 
 ```bash
-$ composer require aqamarine228/query-cache
+$ composer require aqamarine228/laravel-query-cache
 ```
 
 ## Usage
@@ -69,7 +69,7 @@ $shelfOneBooks = Book::whereShelf(1)->cacheFor(60)->cacheTags(['shelf:1'])->get(
 Book::flushQueryCache(['shelf:1']);
 ```
 
-### Relationship Caching, Cache Keys, Cache Drivers, Disable caching, Equivalent Methods and Variables
+### Relationship Caching, Cache Keys, Cache Drivers, Disable caching & Equivalent Methods and Variables
 
 Topics are the same as in [miradnan/laravel-model-caching](https://github.com/miradnan/laravel-model-caching) README.
 
